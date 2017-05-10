@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+
+	background :#f3f3f3;
+}
+
+#navegacao{
+	background:#5F9EA0;
+	/*background-image:url(img/topo.jpg);*/
+	background-repeat: no-repeat;
+	height: 100px;
+	position: fixed;
+	padding: 10px;
+	width: 100%;
+
+}
+
+#area-principal{
+	border:1px solid red;
+	padding: 120px 0 0 0;
+	margin : 0 auto;
+
+
+	
+}
+
+#postagem{
+	border:1px solid red;
+	padding: 0 0 0 0 ;
+	width: 100%;
+
+}
+
+
+
+.img-postagem{
+	margin:0 auto;
+	
+}
+
+
+#menu{
+
+	border:1px solid red;
+	float: right;
+	
+
+}
+
+/* FORMATAÇÃO DO MENU */
+
+a{
+	text-decoration: none;
+	font-size: 12px;
+	font-family:"Andale Mono", monospace
+}
+/*links nao visitados */
+a:link{
+	color: #fff;
+}
+/*links visitados*/
+a:visited{
+	color: #fff;
+}
+
+/*links hover*/
+
+a:hover{
+	color: #fff;
+	background-color: #ffc49a
+}
+
+/*links active*/
+
+a:active{
+	color: #535353;
+}
+
+
+
